@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="span6">
+    <ul id="tools" class="thumbnails">
+      <li class="span2" ng-repeat="tool in tools | filter:search">
+        <a href="{{tool.url}}" onclick="return false;" ng-click="setTool(tool)">
+          <div class="thumbnail">
+            <h4>{{tool.name}}</h4>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="span5 offset1">
+    <h4>Projects</h4>
+
+    <ul id="projects" class="nav nav-list" ng-controller="ProjectsCtrl">
+      <li ng-repeat="project in projects | filter:search">
+        <div class="pull-right">
+          <span ng-show="project.url.accept">
+            <a href="{{project.url.accept}}" target="_blank">
+              <i class="icon icon-ok"></i> accept
+            </a>
+            &nbsp;
+          </span>
+          <span ng-show="project.url.production">
+            <a href="{{project.url.production}}" target="_blank" title="Production">
+              <i class="icon icon-globe"></i> production
+            </a>
+          </span>
+        </div>
+        <a href="{{project.url.local}}" target="_blank">
+          {{project.name}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

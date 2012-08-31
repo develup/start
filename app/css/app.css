@@ -1,0 +1,65 @@
+/* app css stylesheet */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+a:link,
+a:visited {
+
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+#wrapper {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100%;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+}
+
+.wrapper.top {
+  -webkit-transition: all .2s linear;
+  height: 85px;
+}
+
+.wrapper.top:hover {
+  padding-top: 60px;
+  height: 500px;
+}
+
+.wrapper.bottom {
+  height: auto;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #f7f7f7;
+}
+
+#tools .thumbnail {
+  min-height: 60px;
+  text-align: center;
+}
+
+#tools .thumbnail h4 {
+  line-height: 58px;
+  margin: 0;
+  padding: 0;
+}
+
+#tools a:hover .thumbnail {
+  background: #f7f7f7;
+}
