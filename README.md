@@ -28,6 +28,6 @@ See: `app/data/projects.json`
 Works on all modern browsers & Internet Explorer 8+.
 
 ## Todo
-* Fix height of frame.
 * Make back button function correctly.
 * Add ability to 'reset' a frame to its starting page.
+* Make search useful

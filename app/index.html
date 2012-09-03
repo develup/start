@@ -8,8 +8,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 </head>
 <body ng-controller="AppCtrl">
-  <div id="wrapper">
-    <div class="wrapper top">
+  <div id="grid">
+    <div class="wrapper top"><div class="cell">
       <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
           <div class="container">
@@ -23,10 +23,10 @@
       <div class="container">
         <div ng-view></div>
      </div>
-    </div>
-    <div class="wrapper bottom">
+    </div></div>
+    <div class="wrapper bottom"><div class="cell">
       <iframe class="frame" ng-repeat="page in pages" ng-src="{{page.url}}" ng-show="page == currentPage"></iframe>
-    </div>
+    </div></div>
   </div>
 
   <script src="lib/angular/angular.js"></script>

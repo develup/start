@@ -18,28 +18,40 @@ a:active {
   text-decoration: none;
 }
 
-#wrapper {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+#grid {
+  display: table;
   height: 100%;
+  width: 100%;
 }
 
 .wrapper {
-  -webkit-box-flex: 1;
+  display: table-row;
+}
+.wrapper .cell {
+  overflow: hidden;
 }
 
+/* Top */
 .wrapper.top {
-  -webkit-transition: all .2s linear;
-  height: 85px;
+  height: 40px;
+}
+.wrapper.top .cell {
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  height: 39px;
+  border-bottom: 1px solid #ccc;
 }
 
-.wrapper.top:hover {
+.wrapper.top .cell:hover {
   padding-top: 60px;
-  height: 500px;
+  height: 250px;
 }
 
-.wrapper.bottom {
-  height: auto;
+/* Bottom */
+.wrapper.bottom .cell {
+  height: 100%;
 }
 
 .frame {
