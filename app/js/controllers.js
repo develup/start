@@ -4,13 +4,13 @@
 
 // App controller
 function AppCtrl($scope, $http) {
-  $http.get('data/tools.json').success(function(data) {
-    $scope.tools = data;
-    $scope.currentTool = $scope.tools[0];
+  $http.get('data/pages.json').success(function(data) {
+    $scope.pages = data;
+    $scope.currentPage = $scope.pages[0];
   });
 
-  $scope.setTool = function(tool) {
-    $scope.currentTool = tool;
+  $scope.setPage = function(page) {
+    $scope.currentPage = page;
   }
 }
 AppCtrl.$inject = ['$scope', '$http'];
@@ -19,10 +19,10 @@ AppCtrl.$inject = ['$scope', '$http'];
 function IndexCtrl($scope) {}
 IndexCtrl.$inject = ['$scope'];
 
-// Projects controller
-function ProjectsCtrl($scope, $http) {
-  $http.get('data/projects.json').success(function(data) {
-    $scope.projects = data;
+// Links controller
+function LinksCtrl($scope, $http) {
+  $http.get('data/links.json').success(function(data) {
+    $scope.links = data;
   });
 }
-ProjectsCtrl.$inject = ['$scope', '$http'];
+LinksCtrl.$inject = ['$scope', '$http'];

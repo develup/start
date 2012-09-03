@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Website",
+    "url": {
+              "local": "http://www.example.com/dev",
+              "accept": "http://www.example.com/accept",
+              "production": "http://www.example.com"
+           }
+  },
+  {
+    "name": "Website 2",
+    "url": {
+              "local": "http://www.example.com/dev2",
+              "production": "http://www.example.com"
+           }
+  }
+]

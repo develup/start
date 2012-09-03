@@ -14,11 +14,6 @@
         <div class="navbar-inner">
           <div class="container">
             <a class="brand" href="#">Start</a>
-            <!-- <ul class="nav">
-            <li class="active"><a href="#/">Home</a></li>
-            <li><a href="#/view1">Page 1</a></li>
-            <li><a href="#/view2">Page 2</a></li>
-            </ul> -->
             <form class="navbar-search pull-right">
               <input type="text" class="search-query" ng-model="search.name" placeholder="Search">
             </form>
@@ -30,7 +25,7 @@
      </div>
     </div>
     <div class="wrapper bottom">
-      <iframe class="frame" ng-repeat="tool in tools" ng-src="{{tool.url}}" ng-show="tool == currentTool"></iframe>
+      <iframe class="frame" ng-repeat="page in pages" ng-src="{{page.url}}" ng-show="page == currentPage"></iframe>
     </div>
   </div>
 
