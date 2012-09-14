@@ -5,7 +5,7 @@ You can also add links that open in a new window.
 
 This project is built using [AngularJS](http://angularjs.org/) and [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
-Live demo: [http://dl.dropbox.com/u/6945265/start/app/index.html](http://dl.dropbox.com/u/6945265/start/app/index.html).
+Live demo: [http://vps1.sparklingclouds.nl/s/index.html](http://vps1.sparklingclouds.nl/s/index.html)
 
 ## Usage
 
