@@ -8,10 +8,9 @@
            }
   },
   {
-    "name": "Website 2",
+    "name": "Mail",
     "url": {
-              "local": "http://www.example.com/dev2",
-              "production": "http://www.example.com"
+              "local": "http://mail.google.com"
            }
   }
 ]
