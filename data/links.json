@@ -1,15 +1,17 @@
 [
-    {
-        "name": "Mail",
-        "url": {
-            "local": "https://mail.google.com"
-        }
-    },
-    {
-        "name": "Raymii.org",
-        "url": {
-            "local": "https://raymii.org",
-            "accept": "http://raymii.org/cms/p_Debian_packages_cleanup_commands"
-        }
-    }
+  {
+    "name": "Website",
+    "url": {
+              "local": "http://www.example.com/dev",
+              "accept": "http://www.example.com/accept",
+              "production": "http://www.example.com"
+           }
+  },
+  {
+    "name": "Website 2",
+    "url": {
+              "local": "http://www.example.com/dev2",
+              "production": "http://www.example.com"
+           }
+  }
 ]
