@@ -2,17 +2,17 @@
     {
         "name": "Mail",
         "url": {
-            "Google": "https://mail.google.com",
-            "Erasmus MC": "https://mail.erasmusmc.nl",
-            "Maasstad": "https://portal.maasstadziekenhuis.nl/"
+            "production": "https://mail.google.com",
+            "accept": "https://mail.erasmusmc.nl",
+            "local": "https://portal.maasstadziekenhuis.nl/"
         }
     },
     {
         "name": "Raymii.org",
         "url": {
-            "Cluster": "https://raymii.org",
-            "Apt": "http://raymii.org/cms/p_Debian_packages_cleanup_commands",
-            "Kansas": "http://www.example.com"
+            "production": "https://raymii.org",
+            "accept": "http://raymii.org/cms/p_Debian_packages_cleanup_commands",
+            "local": "http://www.example.com"
         }
     }
 ]
