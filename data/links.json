@@ -1,10 +1,10 @@
 [
   {
-    "name": "Website",
+    "name": "Raymii",
     "url": {
-              "local": "http://www.example.com/dev",
-              "accept": "http://www.example.com/accept",
-              "production": "http://www.example.com"
+              "local": "http://vps.raymii.org/cms/index.php",
+              "accept": "http://raymii.org",
+              "production": "https:/raymii.org"
            }
   },
   {
