@@ -2,17 +2,14 @@
     {
         "name": "Mail",
         "url": {
-            "production": "https://mail.google.com",
-            "accept": "https://mail.erasmusmc.nl",
-            "local": "https://portal.maasstadziekenhuis.nl/"
+            "local": "https://mail.google.com"
         }
     },
     {
         "name": "Raymii.org",
         "url": {
-            "production": "https://raymii.org",
-            "accept": "http://raymii.org/cms/p_Debian_packages_cleanup_commands",
-            "local": "http://www.example.com"
+            "local": "https://raymii.org",
+            "accept": "http://raymii.org/cms/p_Debian_packages_cleanup_commands"
         }
     }
 ]
