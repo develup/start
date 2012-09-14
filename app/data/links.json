@@ -1,17 +1,18 @@
 [
   {
-    "name": "Website",
+    "name": "Mail",
     "url": {
-              "local": "http://www.example.com/dev",
-              "accept": "http://www.example.com/accept",
-              "production": "http://www.example.com"
+              "Google": "https://mail.google.com",
+              "Erasmus MC": "httpsL//mail.erasmusmc.nl",
+              "Maasstad": "https://portal.maasstadziekenhuis.nl/"
            }
   },
   {
-    "name": "Website 2",
+    "name": "Raymii.org",
     "url": {
-              "local": "http://www.example.com/dev2",
-              "production": "http://www.example.com"
+              "Cluster": "https://raymii.org",
+              "Apt": "http://raymii.org/cms/p_Debian_packages_cleanup_commands",
+              "Kansas": "http://www.example.com"
            }
   }
 ]

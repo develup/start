@@ -1,14 +1,26 @@
 [
   {
-    "name": "Wiki",
-    "url": "http://www.wikipedia.org"
+    "name": "Tweakers",
+    "url": "http://tweakers.net/nieuws"
   },
   {
-    "name": "Yahoo",
-    "url": "http://www.yahoo.com"
+    "name": "Nu.nl",
+    "url": "http://www.nu.nl"
   },
   {
-    "name": "Music",
-    "url": "http://www.grooveshark.com"
+    "name": "Piwik",
+    "url": "http://irixos.nl/piwik"
+  },
+  {
+    "name": "LowendTalk",
+    "url": "http://www.lowendtalk.com"
+  },
+  {
+    "name": "Tiny Tiny RSS",
+    "url": "http://www.irixos.nl/rss"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://reddit.com"
   }
  ]
